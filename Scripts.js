@@ -39,3 +39,8 @@ function showProject(projectId) {
         }, 300);
     }
 }
+
+function expandPDF() {
+    let pdf = document.getElementById("pdf-preview");
+    pdf.classList.toggle("expanded");
+}
