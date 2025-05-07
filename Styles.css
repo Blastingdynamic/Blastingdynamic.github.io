@@ -193,3 +193,16 @@ footer {
     text-decoration: underline;
     color: #0056b3; /* Darker shade on hover */
 }
+
+#accolades {
+    text-align: center;
+    margin-top: 40px;
+}
+
+.accolade-content img {
+    width: 576px;
+    height: 432px;
+    object-fit: cover;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0,0,0,0.3);
+}
