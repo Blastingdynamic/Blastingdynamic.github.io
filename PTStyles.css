@@ -10,8 +10,8 @@
 
 body {
     line-height: 1.6;
-    color: #8B2222;
-    background-color: #228B22;
+    color: #fff;
+    background-color: #1b1b1b;
     padding: 0 10%; /* 10% empty space on both sides */
 }
 
@@ -30,7 +30,7 @@ header h1 {
 #portfolio-details {
     margin: 20px 0;
     padding: 20px;
-    background: #22228B;
+    background: #1b1b1b;
     border-radius: 8px;
     box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
 }
@@ -47,12 +47,12 @@ header h1 {
 
 .description h2 {
     margin-bottom: 10px;
-    color: #8B2222;
+    color: #fff;
 }
 
 .description p {
     margin-bottom: 10px;
-    color: #8B2222;
+    color: #fff;
 }
 
 .images {
@@ -97,5 +97,99 @@ header h1 {
 
     .video-container video {
         width: 100%; /* Adjust video to full width */
+    }
+}
+
+/* Portfolio Template Layout */
+.Link {
+    margin: 20px 0;
+}
+
+.back-link {
+    color: #fff;
+    text-decoration: none;
+}
+
+.back-link:hover {
+    text-decoration: underline;
+}
+
+.project-overview {
+    display: flex;
+    gap: 30px;
+    align-items: stretch;
+    margin-bottom: 30px;
+}
+
+.statement-panel,
+.youtube-panel {
+    width: 50%;
+}
+
+.statement-panel {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.statement-section,
+.research-summary {
+    background: #252525;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
+}
+
+.statement-section h2,
+.research-summary h2 {
+    margin-bottom: 10px;
+    color: #fff;
+}
+
+.statement-section p,
+.research-summary p {
+    color: #fff;
+    margin-bottom: 0;
+}
+
+.youtube-container {
+    position: relative;
+    width: 100%;
+    height: 100%;
+    min-height: 315px;
+    border-radius: 8px;
+    overflow: hidden;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
+}
+
+.youtube-container iframe {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    border: 0;
+}
+
+.research-summary {
+    max-width: 900px;
+    margin: 0 auto;
+    text-align: center;
+}
+
+@media (max-width: 768px) {
+    .project-overview {
+        flex-direction: column;
+    }
+
+    .statement-panel,
+    .youtube-panel {
+        width: 100%;
+    }
+
+    .youtube-container {
+        height: auto;
+        padding-top: 56.25%;
+        min-height: 0;
     }
 }

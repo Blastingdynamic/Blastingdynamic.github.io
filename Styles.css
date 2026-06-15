@@ -8,8 +8,8 @@
 
 /* Background and Text Color */
 body {
-    background-color: #228B22; /* Forest Green */
-    color: #8B2222; /* Deep Red Text */
+    background-color: #1b1b1b; /* Forest Green */
+    color: #FFFFFF; /* Deep Red Text */
     line-height: 1.6;
     padding: 0 10%;
 }
@@ -53,12 +53,12 @@ header {
 
 /* Section Styling */
 section {
-    background: #22228B; /* Dark Blue Background */
+    background: #1b1b1b; /* Dark Blue Background */
     border-radius: 8px;
     padding: 20px;
     margin: 20px 0;
     box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
-    color: #8B2222; /* Text color updated to deep red */
+    color: #FFFFFF; /* Text color updated to deep red */
 }
 
 /* About Me Section */
