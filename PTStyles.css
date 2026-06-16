@@ -12,7 +12,7 @@ body {
     line-height: 1.6;
     color: #fff;
     background-color: #1b1b1b;
-    padding: 0 10%; /* 10% empty space on both sides */
+    padding: 0 10%;
 }
 
 header {
@@ -42,7 +42,7 @@ header h1 {
 }
 
 .description {
-    width: 50%; /* Left side takes 50% of the width */
+    width: 50%; 
 }
 
 .description h2 {
@@ -56,7 +56,7 @@ header h1 {
 }
 
 .images {
-    width: 50%; /* Right side takes 50% of the width */
+    width: 50%; 
     display: flex;
     flex-direction: column;
     gap: 10px;
@@ -70,37 +70,37 @@ header h1 {
 
 .video-container {
     display: flex;
-    justify-content: center; /* Centers the video horizontally */
+    justify-content: center; 
     margin-top: 20px;
 }
 
 .video-container video {
-    width: 80%; /* Adjust width of video */
-    max-width: 800px; /* Set a max width for larger screens */
+    width: 80%; 
+    max-width: 800px;
     border-radius: 8px;
     box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
 }
 
-/* Responsive Design */
+
 @media (max-width: 768px) {
     body {
-        padding: 0 5%; /* Reduce padding for smaller screens */
+        padding: 0 5%; 
     }
 
     #portfolio-details .content {
-        flex-direction: column; /* Stack sections vertically */
+        flex-direction: column;
     }
 
     .description, .images {
-        width: 100%; /* Take full width on smaller screens */
+        width: 100%; 
     }
 
     .video-container video {
-        width: 100%; /* Adjust video to full width */
+        width: 100%; 
     }
 }
 
-/* Portfolio Template Layout */
+
 .Link {
     margin: 20px 0;
 }
