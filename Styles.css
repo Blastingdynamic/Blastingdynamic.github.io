@@ -67,11 +67,12 @@ section {
 
 .about-content {
     display: flex;
-    align-items: center;
-    justify-content: center;
+    align-items: left;
+    justify-content: left;
     gap: 20px;
     max-width: 900px;
     margin: auto;
+    font-size:large;
 }
 
 #Contacts{

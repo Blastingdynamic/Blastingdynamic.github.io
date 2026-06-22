@@ -174,7 +174,7 @@ header h1 {
 .research-summary {
     max-width: 900px;
     margin: 0 auto;
-    text-align: center;
+    text-align:left;
 }
 
 @media (max-width: 768px) {
